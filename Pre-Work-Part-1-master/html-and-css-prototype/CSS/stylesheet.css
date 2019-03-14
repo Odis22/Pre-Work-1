@@ -1,0 +1,172 @@
+/* Global resets */
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	font-family: "rooney-sans", Avenir-Book, Calibri, sans-serif;
+	color: #424242;
+	line-height: 1.4;
+}
+
+/* Fonts */
+h1 {
+	font-family: "rooney-web", "AmericanTypewriter", Rockwell, serif;
+	font-size: 2.5em;
+	font-weight: bold;
+}
+
+.container {
+	margin: 2em auto;
+	max-width: 630px;
+	text-align: center;
+}
+
+/* The following font information and color codes are provided for you.  They do not match the prototype exactly, but they are fine to use for the assignment and doing so does not count against you.  They are simply meant to help you save time.  We would like everyone to have as close to a pixel-perfect match to the prototype as possible.  If you do find a font/color that matches more precisely, please share it with the team so we can improve the activity for future applicants.  Thank you!  Happy coding!
+
+	FONTS:
+	font-family: "rooney-sans", Avenir-Book, Calibri, sans-serif;
+	font-family: "rooney-web", "AmericanTypewriter", Rockwell, serif;
+
+  COLORS:
+  blue: #20A1D4;
+  green: #1CBC2C;
+  orange: #EF5F3C;
+  black: #424242;
+  grey: #777;
+  light grey: #eaeaea;
+*/
+
+/* Your CSS code goes here */
+.speechbubble {
+  position: relative;
+  font-family: arial;
+  font-size: 0.3em;
+  background: #424242;
+  color: white;
+  border-radius: 5px;
+  padding: 10px;
+  max-width: 400px;
+  margin-bottom: 10px;
+}
+
+.speechbubble:after {
+  /* [THESE WILL CREATE THE TRIANGLE] */
+  content: '';
+  border: 20px solid transparent;
+  border-top-color: #424242;
+  border-bottom: 0;
+  
+
+  /* [THESE WILL POSITION THE TRIANGLE] */
+  position: absolute;
+  bottom: -6px;
+  right: 7%;
+  margin-left: -20px;
+}
+
+.projectcontainer {
+	width:270px;
+	height: 700px;
+	margin: 2em auto;
+	text-align: center;
+	
+}
+.progress {
+	background-color: white;
+	border: 1px solid;
+	border-color: #eaeaea;
+	-moz-box-shadow: 0 0 5px #eaeaea;
+-webkit-box-shadow: 0 0 5px#eaeaea;
+box-shadow: 0 0 5px #eaeaea;
+}
+.orange {
+	background-color: #EF5F3C;
+	height:12px;
+	width:75%;
+}
+
+.goal {
+	width: 100%;
+	height: 33%;
+	border: 1px ridge;
+	border-color: #eaeaea;
+	-moz-box-shadow: 0 0 5px #eaeaea;
+-webkit-box-shadow: 0 0 5px#eaeaea;
+box-shadow: 0 0 5px #eaeaea;
+	padding: 20px;
+	font-size: 0.8em;
+	font-family: "rooney-web", "AmericanTypewriter", Rockwell, serif;
+	text-align: left;
+	
+	
+}
+
+.only {
+	color: #EF5F3C;
+	font-weight: bold;
+}
+
+.goalnumber {
+	height: 50px;
+	width: 100px;
+	margin-bottom: 10px;
+	font-family: "rooney-web", "AmericanTypewriter", Rockwell, serif;
+	font-weight: bold;
+	font-size: 1.5em;
+	
+}
+
+.number {
+	font-weight: bold;
+}
+
+.give {
+	height: 50px;
+	width: 100px;
+	border: none;
+	background-color: #1CBC2C;
+	color: white;
+	margin-left: 10px;
+}
+
+a {
+	
+	color: #20A1D4;
+	font-style: italic;
+}
+
+.options {
+	height: 30px;
+	width: 47%;
+	background: #fafafa;
+	border: 1px ridge;
+	border-color: #eaeaea;
+	-moz-box-shadow: 0 0 5px #eaeaea;
+-webkit-box-shadow: 0 0 5px #eaeaea;
+box-shadow: 0 0 5px #eaeaea;
+	color: black;
+	display: inline-block;
+	position: relative;
+	left: -8px;
+
+}
+
+.options2 {
+	height: 30px;
+	width: 47%;
+	background: #fafafa;
+	border: 1px ridge;
+	border-color: #eaeaea;
+	-moz-box-shadow: 0 0 5px #eaeaea;
+-webkit-box-shadow: 0 0 5px #eaeaea;
+box-shadow: 0 0 5px #eaeaea;
+	color: black;
+	display: inline-block;
+	position: relative;
+	right: -6px;
+	margin-top: 10px;
+
+}
